@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example select {
+  float: left;
+  width: 90%;
+  padding: 10px;
+  background:  #f1f1f1;
+  color: white;
+  font-size: 17px;
+  border: 2px solid white;
+  border-left: none;
+  cursor: pointer;
+  align:center;
+}
+
+form.example select:hover
+ {
+  background: #0b7dda;
+  align:center;
+
+}
+body
+{
+background-color:pink;
+}
+p{
+color: black;
+}
+h1{
+width:200px;
+}
+
+</style>
+</head>
+<body >
+<form class="example" action="hello.php" method="post" style="margin:auto;max-width:500px" align :"center">
+<!-- <input type="text" placeholder="please search for this data..." name="s"> -->
+<p style="font-size:40px">Your  Query Search here:-</p>
+<select name="name"  id="cars" >
+  <option value="please select valid data">select any one please..</option>
+  <option value="Air Quality">Air Quality</option>
+  <option value="Agriculture and Water Management">Agriculture and Water Management</option>
+  <option value="Biological Diversity and Ecological Conservation">Biological Diversity and Ecological Conservation</option>
+  <option value="Disasters">Disasters.</option>
+  <option value="Diseases">Diseases</option>
+  <option value="Geographic Information Systems (GIS)">Geographic Information Systems (GIS)</option>
+  <option value="Greenhouse Gases">Greenhouse Gases</option>
+  <option value="Sea Level Change">Sea Level Change</option>
+  <option value="Water Quality">Water Quality</option>
+  
+</select>
+<h1 ><input type="submit" name="submit" style="align:center"></h1>
+</form>
+</body>
+</html> 
